@@ -3,12 +3,13 @@
 <title>함</title>
 </head>
 <body>
-sum 구하기
+<h1>sum 구하기</h1>
 <script>
 sum = 0
 for ( i=0 ; i<5 ; i++ ) {
     sum = sum + k
-
+    document_write("k is" + k + " ,sum is"
+  +sum + "<br>")
 }
 document_write("sum is" + sum)
 </script>
