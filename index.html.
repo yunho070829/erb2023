@@ -1,17 +1,20 @@
 <html>
 <head>
-<title>함</title>
+<title>합</title>
 </head>
 <body>
 <h1>sum 구하기</h1>
 <script>
 sum = 0
-for ( i=0 ; i<5 ; i++ ) {
-    sum = sum + k
-    document_write("k is" + k + " ,sum is"
-  +sum + "<br>")
+//data = [1, 2, 3, 4, 5]
+data = prompt('input Numbers")
+data = data.split(' ')
+data = data.map(Number)
+for (i=0 ; i<=data.length ; i++){
+    sum = sum + data[i]
+ //document.write("i is" + i + " ,data is" data[i] +<br>)
 }
-document_write("sum is" + sum)
+document.write("sum is" +  sum +<br>)
 </script>
 </body>
 </html>
